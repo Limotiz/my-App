@@ -14,10 +14,9 @@ return(
 onClick={()=>updatePrice(product.id)}
 >
 
-// Edit Price
+ Edit Price
 
 </button>
-
 </div>
 
 )
