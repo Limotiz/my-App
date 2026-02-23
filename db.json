@@ -1,0 +1,54 @@
+{
+"clothes":[
+  {
+    "id": 1,
+    "name": "Classic Oxford Shirt",
+    "sku": "OX-WHT-01",
+    "price": 45.00,
+    "stock": 25,
+    "description": "A crisp, white button-down made from 100% breathable cotton.",
+    "category": "Tops",
+    "origin": "Vietnam"
+  },
+  {
+    "id": 2,
+    "name": "Slim-Fit Chinos",
+    "sku": "CH-NAV-02",
+    "price": 55.50,
+    "stock": 40,
+    "description": "Tailored navy chinos with a hint of stretch for daily comfort.",
+    "category": "Bottoms",
+    "origin": "India"
+  },
+  {
+    "id": 3,
+    "name": "Merino Wool Sweater",
+    "sku": "SW-GRY-03",
+    "price": 89.00,
+    "stock": 15,
+    "description": "Lightweight grey knit sweater, perfect for layering in cooler weather.",
+    "category": "Knitwear",
+    "origin": "Italy"
+  },
+  {
+    "id": 4,
+    "name": "Raw Denim Jeans",
+    "sku": "DN-IND-04", 
+    "price": 120.00,
+    "stock": 10,
+    "description": "Dark indigo raw denim designed to age uniquely with every wear.",
+    "category": "Bottoms",
+    "origin": "Japan"
+  },
+  {
+    "id": 5,
+    "name": "Graphic Heritage Tee",
+    "sku": "TE-BLK-05",
+    "price": 28.00,
+    "stock": 60,
+    "description": "Soft black cotton tee featuring a vintage-inspired chest print.",
+    "category": "Tops",
+    "origin": "USA"
+  }
+]
+}
