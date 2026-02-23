@@ -1,5 +1,4 @@
 import { useState } from "react"
-import { useNavigate } from "react-router-dom"
 
 function ProductForm({ addProduct }) {
 
@@ -9,8 +8,6 @@ function ProductForm({ addProduct }) {
     const [category,setCategory] = useState("")
 
 const navigate = useNavigate()
-
-
 const handleSubmit = (e) => {
 
 e.preventDefault()
@@ -49,7 +46,6 @@ body:JSON.stringify(newProduct)
 
 }
 
-
 return(
 
 <div>
@@ -72,8 +68,6 @@ return(
 
 />
 
-
-
 <input
 
     type="number"
@@ -85,10 +79,7 @@ return(
     onChange={(e)=>setPrice(e.target.value)}
 
     required
-
 />
-
-
 
 <input
 
@@ -101,10 +92,7 @@ return(
     onChange={(e)=>setStock(e.target.value)}
 
     required
-
 />
-
-
 <input
 
     type="text"
@@ -118,7 +106,6 @@ return(
     required
 
 />
-
 
 <button type="submit">
 

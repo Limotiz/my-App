@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import ProductList from "../components/ProductList"
 
 function Products() {
 
@@ -75,7 +76,10 @@ return(
 <div>
 
 <h1>Products</h1>
-
+<ProductList
+products={filteredProducts}
+updatePrice={updatePrice}
+/>
 
 <input
 

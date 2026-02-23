@@ -1,30 +1,28 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-
 import Home from "./pages/Home"
 import AddProduct from "./pages/AddProduct"
 import Products from "./pages/Products"
 import NavBar from "./components/NavBar"
-import ProductDetail from "./pages/ProductDetail"
+
 
 const App = () => {
 
-  return (
+return (
 
-  <BrowserRouter>
+<BrowserRouter>
 
-     <NavBar />
+<NavBar />
 
 <Routes>
- 
-  <Route path="/" element={<Home />} />
 
-  <Route path="/products" element={<Products />} />
+<Route path="/" element={<Home />} />
 
-  <Route path="/products/:id" element={<ProductDetail />} />
+<Route path="/products" element={<Products />} />
 
-  <Route path="/add" element={<AddProduct />} />
 
-  </Routes>
+<Route path="/add" element={<AddProduct />} />
+
+</Routes>
 
 </BrowserRouter>
 

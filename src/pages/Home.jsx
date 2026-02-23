@@ -9,8 +9,8 @@ function Home() {
       </p>
       <nav>
         {/* Links to Products and AddProduct */}
-        <Link to="/products">View Directors</Link> |{" "}
-        <Link to="/add">Learn More About This App</Link>
+        <Link to="/products">View Clothes</Link> |{" "}
+        <Link to="/add">Add Product</Link>
       </nav>
     </main>
   )
