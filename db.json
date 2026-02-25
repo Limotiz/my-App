@@ -24,7 +24,7 @@
       "id": "3",
       "name": "Merino Wool Sweater",
       "sku": "SW-GRY-03",
-      "price": 89,
+      "price": null,
       "stock": 15,
       "description": "Lightweight grey knit sweater, perfect for layering in cooler weather.",
       "category": "Knitwear",

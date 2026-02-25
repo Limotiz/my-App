@@ -4,7 +4,6 @@ import AddProduct from "./pages/AddProduct"
 import Products from "./pages/Products"
 import NavBar from "./components/NavBar"
 
-
 const App = () => {
 
 return (
